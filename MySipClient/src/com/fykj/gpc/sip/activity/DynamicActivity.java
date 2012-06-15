@@ -26,7 +26,7 @@ import com.fykj.gpc.sip.pojo.News;
 import com.fykj.gpc.sip.utils.AsynImageLoader;
 import com.fykj.gpc.sip.utils.AsynImageLoader.ImageCallback;
 
-public class NewsActivity extends Activity {
+public class DynamicActivity extends Activity {
 
 	private ListView listView;
 	private List<News> newsList;

@@ -35,6 +35,10 @@
             android:name="NewsWebView"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
+        <activity
+            android:name="NewsDetail"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
     </application>
 
 </manifest>

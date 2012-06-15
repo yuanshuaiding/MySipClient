@@ -1,6 +1,7 @@
 package com.fykj.gpc.sip.activity;
 
 public class ConstantUtil {
+	public static final String WEBURL="http://www.sipac.gov.cn/multiclient/sipaciphone";
 	public static final String HTTPSTART="<!DOCTYPE HTML>"+
 "<html xmlns=\"http://www.w3.org/1999/xhtml\">"+
 "<head>"+
@@ -21,6 +22,7 @@ public class ConstantUtil {
 		".main { padding: 7px 7px 7px 6px; }"+
 		".main td { padding: 5px 0; color: #666; }"+
 		".main a { color:#333;  font: 11px/1.5 arial, tahoma, simsun, sans-serif;font-weight:bold;}"+
+		".main img { float:center; margin:0px; max-width:215px; width:expression(document.body.clientWidth > 221?\"220px\": \"auto\" ); }"+
 		".footer { height: 30px; text-align: center;}"+
 		".footer li { float: left; height: 30px; }"+
 		".footer .prev { width: 106px; }"+
@@ -31,13 +33,9 @@ public class ConstantUtil {
 		".main .more { color:blue;  font: 11px/1.5 arial, tahoma, simsun, sans-serif;}"+
 	"</style>"+
 "</head>"+
-"<body>"+
-"<div class=\"main\">"+
-	"<table cellpadding=\"0\" cellspacing=\"1\" border=\"0\" width=\"100%\">";
+"<body>";
 	
 	public static final String HTTPEND=
-	"</table>"+
-"</div>"+
 "<div class=\"footer\">苏州工业园区管理委员会 版权所有<br/>苏州工业园区计算机信息中心 管理维护<br/>风云网络 技术支持<br/>"+
 "3g.sipac.gov.cn"+
 "<br/>2012-06-13  19:00:04</div>"+
